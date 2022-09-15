@@ -5,9 +5,10 @@ import { Father } from './event/index'
 import Hoc from './Hoc'
 import Modal from './customModal'
 import './index.css'
+import Root from './customHooks/index'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Modal></Modal>
+    <Root></Root>
   </React.StrictMode>
 )
